@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#07111f">
+  <title>Monentra Finance — Status Pengajuan</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <div class="bg">
+    <div class="orb orb1"></div>
+    <div class="orb orb2"></div>
+    <div class="grid"></div>
+  </div>
+
+  <!-- HEADER -->
+  <header class="header">
+
+    <div class="brand">
+
+      <div class="logo">
+  <img src="Logo.png" alt="Monentra Finance">
+</div>
+
+      <div>
+        <h1>Monentra Finance</h1>
+        <p>Status Pengajuan</p>
+      </div>
+
+    </div>
+
+    <button class="bell" id="notificationBtn">
+      🔔
+      <span></span>
+    </button>
+
+  </header>
+
+
+  <main class="container">
+
+    <!-- DEMO NOTICE -->
+    <div class="demo-notice">
+      <span>NOTE:</span>
+      <p>Apabila Lama untuk mengajukan harap tenang pinjaman anda sedang di proses malalui anterian</p>
+    </div>
+
+
+    <!-- STATUS CARD -->
+    <section class="hero-card">
+
+      <div class="card-top">
+        <span class="eyebrow">STATUS PENGAJUAN</span>
+        <span class="application-id">ID #MF-2026</span>
+      </div>
+
+
+      <div class="status-animation">
+
+        <div class="pulse-ring ring1"></div>
+        <div class="pulse-ring ring2"></div>
+
+        <div class="status-circle">
+          <span>⌛</span>
+        </div>
+
+      </div>
+
+
+      <h2>Pinjaman Sedang Diproses</h2>
+
+      <p class="hero-description">
+        Pengajuan sedang melalui proses pemeriksaan.
+        Perubahan status akan ditampilkan melalui
+        pemberitahuan pada halaman ini.
+      </p>
+
+
+      <div class="status-pill">
+        <i></i>
+        SEDANG DIPROSES
+      </div>
+
+
+      <!-- PROGRESS -->
+      <div class="progress-wrapper">
+
+        <div class="progress-track">
+          <div class="progress-value"></div>
+        </div>
+
+        <div class="progress-label">
+          <span>Pengajuan</span>
+          <strong>65%</strong>
+        </div>
+
+      </div>
+
+
+      <!-- STEPS -->
+      <div class="steps">
+
+        <div class="step done">
+          <div>✓</div>
+          <small>Pengajuan</small>
+        </div>
+
+        <div class="step done">
+          <div>✓</div>
+          <small>Verifikasi</small>
+        </div>
+
+        <div class="step active">
+          <div>3</div>
+          <small>Proses</small>
+        </div>
+
+        <div class="step">
+          <div>4</div>
+          <small>Selesai</small>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- LOAN SUMMARY -->
+    <section class="card">
+
+      <div class="section-head">
+
+        <div>
+          <span class="eyebrow">RINGKASAN</span>
+          <h3>Detail Pinjaman</h3>
+        </div>
+
+        <div class="section-icon">💳</div>
+
+      </div>
+
+
+      <div class="amount-box">
+
+        <span>Nominal Pinjaman</span>
+
+        <!-- GANTI DATA DI SINI -->
+        <strong>Rp1.000.000</strong>
+
+      </div>
+
+
+      <div class="stats">
+
+        <div>
+          <span>Tenor</span>
+          <strong>48 Bulan</strong>
+        </div>
+
+        <div>
+          <span>Cicilan / Bulan</span>
+          <strong>Rp27.000</strong>
+        </div>
+
+        <div>
+          <span>Administrasi</span>
+          <strong>Rp110.000</strong>
+        </div>
+
+        <div>
+          <span>Metode</span>
+          <strong>Gopay</strong>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- CUSTOMER -->
+    <section class="card">
+
+      <div class="section-head">
+
+        <div class="head-title">
+
+          <div class="mini-icon">
+            👤
+          </div>
+
+          <div>
+            <span class="eyebrow">INFORMASI NASABAH</span>
+            <h3>Data Rekening</h3>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <div class="info-list">
+
+        <div class="info-row">
+          <span>Nama Rekening</span>
+          <strong>Haninda Aulia Fasya</strong>
+        </div>
+
+        <div class="info-row">
+          <span>Jenis Bank</span>
+          <strong>Gopay</strong>
+        </div>
+
+        <div class="info-row">
+          <span>No. Rekening</span>
+          <strong>••••••••••••</strong>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- KTP -->
+    <section class="card">
+
+      <div class="section-head">
+
+        <div class="head-title">
+
+          <div class="mini-icon">
+            🪪
+          </div>
+
+          <div>
+            <span class="eyebrow">DOKUMEN</span>
+            <h3>Identitas</h3>
+          </div>
+
+        </div>
+
+        <span class="verified">
+          ✓ Terlampir
+        </span>
+
+      </div>
+
+
+      <p class="description">
+        Dokumen identitas yang dilampirkan pada Halaman ini.
+      </p>
+
+
+      <!--
+        TARUH FOTO KTP DI FOLDER YANG SAMA
+        DENGAN NAMA: ktp.jpg
+      -->
+
+      <div class="ktp-box">
+
+        <img
+          src="foto_ktp_haninda.png"
+          alt="Preview dokumen"
+          id="ktpImage"
+        >
+
+        <div class="zoom-hint">
+          Ketuk untuk melihat
+        </div>
+
+      </div>
+
+
+      <div class="document-info">
+
+        <div class="check">
+          ✓
+        </div>
+
+        <div>
+          <strong>Dokumen tersedia</strong>
+          <span>Dokumen terlampir</span>
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- NOTIFICATION -->
+    <section class="notification-card">
+
+      <div class="notification-symbol">
+        🔔
+      </div>
+
+      <div>
+
+        <span class="eyebrow">PEMBERITAHUAN</span>
+
+        <h3>
+          Menunggu proses berikutnya
+        </h3>
+
+        <p>
+          Status akan diperbarui apabila terdapat
+          informasi baru mengenai proses pengajuan.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <!-- HELP -->
+    <section class="help-card">
+
+      <div class="help-circle">
+        ?
+      </div>
+
+      <div>
+
+        <strong>Mengalami kendala?</strong>
+
+        <p>
+          Hubungi admin melalui saluran bantuan
+          resmi yang tersedia.
+        </p>
+
+      </div>
+
+    </section>
+
+
+    <div class="footer-logo">
+  <img src="Logo.png" alt="Monentra Finance">
+</div>
+
+  </main>
+
+
+  <!-- IMAGE MODAL -->
+  <div class="modal" id="imageModal">
+
+    <button id="closeModal">
+      ×
+    </button>
+
+    <img id="modalImage" src="" alt="Preview">
+
+  </div>
+
+
+  <script src="script.js"></script>
+
+</body>
+</html>

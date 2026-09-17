@@ -1,0 +1,17 @@
+# Monentra Finance — Status Pengajuan
+
+Template halaman status pengajuan pinjaman berbasis HTML, CSS, dan JavaScript.
+
+> ⚠️ **DEMO / PROTOTYPE**
+>
+> Project ini merupakan template antarmuka/demo dan bukan aplikasi layanan keuangan resmi. Jangan gunakan untuk meminta pembayaran, kredensial, atau data pribadi pengguna tanpa sistem dan otorisasi yang sah.
+
+## 📁 Struktur Project
+
+```text
+Monentra-Finance/
+├── index.html
+├── style.css
+├── script.js
+├── Logo.png
+└── foto_ktp_haninda.png
